@@ -1,16 +1,16 @@
-# Zion
+# reddsnap example app
 
-The world's first application allowing users to directly manage Bitcoin within the MetaMask interface, without having to wrap it.
-The application is currently live on [Metamask](https://metamask.io/) only.
+A demo application for integrating `reddsnap` with MetaMask for Bitcoin and Lightning flows.
+The app runs with [MetaMask](https://metamask.io/).
 
-## How to start testing Zion
+## How to start testing the reddsnap example app
 
 1. Download [MetaMask](https://metamask.io/)
-2. Head over to the [Zion webpage](https://btc.justsnap.io), create a test wallet, connect it to MetMask and approve the installation of the `btcsnap`
+2. Install dependencies and run this app locally, then connect MetaMask and approve installation of `reddsnap`
 3. Ensure you're connected to the 'Testnet' version of the app via settings
 4. Request for some testnet Bitcoin via [Coinfaucet](https://coinfaucet.eu/en/btc-testnet/) or [Bitcoinfaucet](https://bitcoinfaucet.uo1.net/) and start experimenting
 
-Check out this [video](https://youtu.be/pQwZRfHpXtI) to see how Zion works.
+Check out this [video](https://youtu.be/pQwZRfHpXtI) to see how the app works.
 
 ## How to build the application locally
 
@@ -20,7 +20,7 @@ Check out this [video](https://youtu.be/pQwZRfHpXtI) to see how Zion works.
 yarn start
 ```
 
-*Note: Please make sure you already have Metamask installed.
+*Note: Please make sure you already have MetaMask installed.
 
 ### Test
 

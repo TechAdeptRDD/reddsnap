@@ -1,9 +1,9 @@
 {
   "name": "reddsnap",
   "version": "2.0.3",
-  "description": "reddsnap: Metamask snap to manage your reddcoin",
+  "description": "reddsnap: MetaMask Snap for Bitcoin and Lightning management",
   "author": "aaronisme <aarondongchen@gmail.com>",
-  "homepage": "",
+  "homepage": "https://github.com/snapdao/reddsnap",
   "repository": {
     "type": "git",
     "url": "https://github.com/snapdao/reddsnap"

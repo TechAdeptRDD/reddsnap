@@ -1,9 +1,8 @@
-# `Zion`
+# `reddsnap`
 
-[![0.3.1](https://badge.fury.io/js/btcsnap.png)](https://badge.fury.io/js/btcsnap)
+[![npm version](https://badge.fury.io/js/reddsnap.png)](https://badge.fury.io/js/reddsnap)
 
-`Zion` is the world's first application allowing users to directly manage Bitcoin within the MetaMask interface,
-without having to wrap tokens. Zion is currently live on [Metamask](https://metamask.io/).
+`reddsnap` is a MetaMask Snap that lets users manage Bitcoin and Lightning workflows directly in MetaMask, without wrapped assets. It is currently live on [MetaMask](https://metamask.io/).
 
 ## MetaMask Snaps Introduction
 Snaps is a system that allows developers to safely build and expand the capabilities of MetaMask.
@@ -16,13 +15,13 @@ Additional information can be found [here](https://docs.metamask.io/guide/snaps.
 
 ### Usage
 
-1. Enable `btcsnap` in your dapp
+1. Enable `reddsnap` in your dapp
 
 ```ts
 const result: boolean = await ethereum.request({
   method: 'wallet_requestSnaps',
   params: {
-    "npm:btcsnap": {},
+    "npm:reddsnap": {},
   }
 })
 ```
@@ -33,7 +32,7 @@ const result: boolean = await ethereum.request({
 const response = await ethereum.request({
   method: 'wallet_invokeSnap',
   params: {
-    snapId: "npm:btcsnap",
+    snapId: "npm:reddsnap",
     request: {
       method: 'btc_getPublicExtendedKey',
       params: {
@@ -51,7 +50,7 @@ const response = await ethereum.request({
 const result: { txId:string, txHex:string } = await ethereum.request({
   method: 'wallet_invokeSnap',
   params: {
-    snapId: "npm:btcsnap",
+    snapId: "npm:reddsnap",
     request: {
       method: 'btc_signPsbt',
       params: {
@@ -89,4 +88,4 @@ yarn test
 
 ## Live Example
 
-If you would like to integrate `btcsnap` into your dapp, you can use the following codes [here](https://github.com/snapdao/btcsnap/tree/master/packages/example).
+If you would like to integrate `reddsnap` into your dapp, you can use the example app [here](https://github.com/snapdao/reddsnap/tree/master/packages/example).

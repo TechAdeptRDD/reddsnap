@@ -1,10 +1,10 @@
 {
   "version": "2.0.3",
-  "description": "Zion: Metamask snap to manage your Bitcoin",
-  "proposedName": "Zion",
+  "description": "reddsnap: MetaMask Snap for Bitcoin and Lightning management",
+  "proposedName": "reddsnap",
   "repository": {
     "type": "git",
-    "url": "https://github.com/snapdao/btcsnap"
+    "url": "https://github.com/snapdao/reddsnap"
   },
   "source": {
     "shasum": "Ci79gfFXP8eVY9fnvOFuOHycz7QairyYhbzbcuCKrNY=",
@@ -12,7 +12,7 @@
       "npm": {
         "filePath": "dist/bundle.js",
         "iconPath": "images/icon.svg",
-        "packageName": "btcsnap",
+        "packageName": "reddsnap",
         "registry": "https://registry.npmjs.org"
       }
     }

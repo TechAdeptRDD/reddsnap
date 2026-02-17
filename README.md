@@ -2,8 +2,8 @@
 
 ![./home.png](./home.png)
 
-`reddsnap` is the world's first snap allowing users to directly manage ReddCoin within the MetaMask interface, without having to wrap tokens.
-`reddsnap` is currently live on [Metamask](https://metamask.io/).
+`reddsnap` is a MetaMask Snap that allows users to manage Bitcoin and Lightning workflows directly within the MetaMask interface.
+`reddsnap` is currently live on [MetaMask](https://metamask.io/).
 
 ##
 
@@ -16,7 +16,7 @@ Additional information can be found [here](https://docs.metamask.io/guide/snaps.
 ##
 
 ### `reddsnap` Integration
-If you would like to integrate `reddsnap` into your dapp, you can make use of our npm. Refer to the following document [here](https://github.com/snapdao/reddsnap/tree/master/packages/snap).
+If you would like to integrate `reddsnap` into your dapp, you can install the npm package and follow the integration guide in [`packages/snap`](https://github.com/snapdao/reddsnap/tree/master/packages/snap).
 
 ##
 
