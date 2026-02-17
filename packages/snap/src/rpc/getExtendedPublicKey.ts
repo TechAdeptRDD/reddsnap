@@ -59,7 +59,7 @@ export async function getExtendedPublicKey(origin: string, snap: Snap, scriptTyp
                     type: 'confirmation',
                     content: panel([
                         heading('Access your extended public key'),
-                        text(`Do you want to allow ${origin} to access Bitcoin ${networkName} ${scriptType} extended public key?`),
+                        text(`Do you want to allow ${origin} to access ReddCoin ${networkName} ${scriptType} extended public key?`),
                     ]),
                 },
             });

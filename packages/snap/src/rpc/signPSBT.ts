@@ -20,7 +20,7 @@ export async function signPsbt(domain: string, snap: Snap, psbt: string, network
     params: {
       type: 'confirmation',
       content: panel([
-        heading('Sign Bitcoin Transaction'),
+        heading('Sign ReddCoin Transaction'),
         text(`Please verify this ongoing Transaction from ${domain}`),
         divider(),
         panel(Object.entries(txDetails).map(([key, value]) => text(`**${key}**:\n ${value}`))),

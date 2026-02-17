@@ -14,7 +14,7 @@ export async function manageNetwork(origin: string, snap: Snap, action: 'get' | 
           type: 'confirmation',
           content: panel([
             heading('Switch your network'),
-            text(`Do you want to allow ${origin} to switch Bitcoin network to ${target}?`),
+            text(`Do you want to allow ${origin} to switch ReddCoin network to ${target}?`),
           ]),
         },
       });

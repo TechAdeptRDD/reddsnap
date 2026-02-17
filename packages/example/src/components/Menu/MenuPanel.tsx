@@ -42,7 +42,7 @@ const MenuPanel = ({ openSettingModal, close }: MenuPanelProps) => {
       </MenuItem>
       <MenuItem onClick={close}>
         <MenuItemLink
-          href='https://github.com/snapdao/btcsnap'
+          href='https://github.com/snapdao/reddsnap'
           target='_blank'
           rel='noopener noreferrer'>
           <GitHub />

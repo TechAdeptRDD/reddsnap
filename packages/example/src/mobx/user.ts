@@ -17,7 +17,7 @@ export const userInitialState = {
 
 const User = types
   .model('User', {
-    bitcoinWalletName: types.optional(types.string, 'Bitcoin'),
+    bitcoinWalletName: types.optional(types.string, 'ReddCoin'),
     isAgreeCookie: types.boolean,
     LNWalletStep: types.optional(types.number, LNWalletStepStatus.Default),
     bitcoinUnit: types.optional(

@@ -32,9 +32,9 @@ const Connect = ({ onConnected, show }: ConnectProps) => {
     <>
       <ModalContentContainer show={show}>
         <ConnectIcon className='Connect-MM-icon'/>
-        <h2>Connect to Zion: MetaMask Bitcoin snap</h2>
+        <h2>Connect to Zion: MetaMask ReddCoin snap</h2>
         <p className='Connect-install'>
-          If you do not have btcsnap installed, you will be prompted to do
+          If you do not have reddsnap installed, you will be prompted to do
           so.
         </p>
         <div style={{ flex: 1, alignItems: 'flex-start' }}>

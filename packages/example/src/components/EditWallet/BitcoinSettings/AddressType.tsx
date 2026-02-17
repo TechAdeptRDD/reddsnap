@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Modal } from 'semantic-ui-react';
 import { TransitionablePortal } from 'semantic-ui-react';
-import { BitcoinScriptType } from '../../../interface';
+import { BitcoinScriptType, BitcoinUnit } from '../../../interface';
 import CloseIcon from '../../Icons/CloseIcon';
 import {
   ModalHeader,
@@ -95,7 +95,7 @@ export const AddressType = (({ open, close, onChanged }: AddressTypeProps) => {
             <AddressItem onClick={() => onAddressTypedChecked(item)} key={item.label}>
               <AddressItemLabel>
                 <span>{item.label}</span>
-                <span>{balances?.[item.type] ?? '--'} {bitcoinUnitMap[network].BTC}</span>
+                <span>{balances?.[item.type] ?? '--'} {bitcoinUnitMap[network][BitcoinUnit.BTC]}</span>
               </AddressItemLabel>
               <AddressItemRadio value={item.label} checked={scriptType === item.type}/>
             </AddressItem>

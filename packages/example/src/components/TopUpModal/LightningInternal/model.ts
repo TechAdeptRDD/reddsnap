@@ -257,7 +257,7 @@ class TopUpViewModel {
   }
 
   get totalAmount() {
-    if (this.sendInitUnit === bitcoinUnitMap[this.network].BTC) {
+    if (this.sendInitUnit === bitcoinUnitMap[this.network][BitcoinUnit.BTC]) {
       return this.sendSatoshis
         .plus(this.fee)
         .dividedBy(this.decimalFactor)
