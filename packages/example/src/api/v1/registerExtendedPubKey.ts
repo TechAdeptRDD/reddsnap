@@ -7,11 +7,11 @@ export interface RegisterExtendedPubKeyResponse {
   extendedPubKey: string,
   hdPath: string,
   accountId: number,
-  chainCoin: 'BTC' | 'BTC_TESTNET'
+  chainCoin: 'RDD' | 'RDD_TESTNET'
 }
 
 export const registerExtendedPubKey = (
-  coin: 'BTC' | 'BTC_TESTNET',
+  coin: 'RDD' | 'RDD_TESTNET',
   path: string,
   key: string,
   script_type: string,

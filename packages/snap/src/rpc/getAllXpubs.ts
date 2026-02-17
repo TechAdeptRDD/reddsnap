@@ -13,7 +13,7 @@ export async function getAllXpubs(origin: string, snap: Snap): Promise<{xpubs: s
       type: 'confirmation',
       content: panel([
         heading('Access your extended public key'),
-        text(`${origin} is trying to access your Bitcoin Legacy, SegWit and Native SegWit extended public keys.`),
+        text(`${origin} is trying to access your ReddCoin Legacy, SegWit and Native SegWit extended public keys.`),
       ]),
     },
   });

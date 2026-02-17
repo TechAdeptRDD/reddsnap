@@ -93,7 +93,7 @@ const Initial: FunctionComponent<InitialProps> = observer(({ model, close }) => 
                     const isBTC = model.mainUnit === BitcoinUnit.BTC;
                     const isSatoshi = model.mainUnit === bitcoinUnitMap.mainnet.sats;
                     const currDecMaxLen = {
-                      [bitcoinUnitMap.mainnet.BTC]: 8,
+                      [bitcoinUnitMap.mainnet[BitcoinUnit.BTC]]: 8,
                       [bitcoinUnitMap.mainnet.Currency]: 2,
                       [bitcoinUnitMap.mainnet.sats]: 0,
                     }[model.mainUnit];

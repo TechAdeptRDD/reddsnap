@@ -1,9 +1,9 @@
-# btcsnap [![0.3.1](https://badge.fury.io/js/btcsnap.png)](https://badge.fury.io/js/btcsnap)
+# reddsnap
 
 ![./home.png](./home.png)
 
-`btcsnap` is the world's first snap allowing users to directly manage Bitcoin within the MetaMask interface, without having to wrap tokens.
-`btcsnap` is currently live on [Metamask](https://metamask.io/).
+`reddsnap` is the world's first snap allowing users to directly manage ReddCoin within the MetaMask interface, without having to wrap tokens.
+`reddsnap` is currently live on [Metamask](https://metamask.io/).
 
 ##
 
@@ -15,12 +15,12 @@ Additional information can be found [here](https://docs.metamask.io/guide/snaps.
 
 ##
 
-### `btcsnap` Integration
-If you would like to integrate `btcsnap` into your dapp, you can make use of our npm. Refer to the following document [here](https://github.com/snapdao/btcsnap/tree/master/packages/snap).
+### `reddsnap` Integration
+If you would like to integrate `reddsnap` into your dapp, you can make use of our npm. Refer to the following document [here](https://github.com/snapdao/reddsnap/tree/master/packages/snap).
 
 ##
 
-### How to run `btcsnap` on a wallet locally
+### How to run `reddsnap` on a wallet locally
 
 Navigate to the `example` folder under `packages`, launch our app locally by running:
 

@@ -26,7 +26,7 @@ type LightningWallet = Instance<typeof LightningWallet>;
 type WalletInfo = { name: string } & Partial<LightningWallet>;
 
 const walletTypeTextMap = {
-  [WalletType.BitcoinWallet]: 'Bitcoin Wallet',
+  [WalletType.BitcoinWallet]: 'ReddCoin Wallet',
   [WalletType.LightningWallet]: 'Lightning Wallet',
 };
 

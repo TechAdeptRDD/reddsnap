@@ -46,7 +46,7 @@ const Account = types
         const scriptType = self.scriptType;
         const network = self.network;
 
-        const coin = network === BitcoinNetwork.Main ? 'BTC' : 'BTC_TESTNET';
+        const coin = network === BitcoinNetwork.Main ? 'RDD' : 'RDD_TESTNET';
         const path = EXTENDED_PUBKEY_PATH[network][scriptType];
         await registerExtendedPubKey(coin, path, self.xpub, scriptType, mfp).then(() => {
           self.setHasXpubSynced(true);

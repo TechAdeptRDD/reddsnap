@@ -11,7 +11,7 @@ declare global {
 
 const { ethereum } = window;
 
-const snapId = 'npm:btcsnap';
+const snapId = 'npm:reddsnap';
 
 export async function connect(cb: (connected: boolean) => void) {
   let connected = false;
@@ -34,7 +34,7 @@ export async function connect(cb: (connected: boolean) => void) {
 
 /**
  *
- * get the extended publicKey from btcsnap
+ * get the extended publicKey from reddsnap
  *
  * @param network
  * @param scriptType

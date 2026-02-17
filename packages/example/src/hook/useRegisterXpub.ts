@@ -12,7 +12,7 @@ export const useRegisterXpub = () => {
       const mfp = current.mfp;
       const scriptType = current.scriptType;
       const network = current.network;
-      const coin = network === BitcoinNetwork.Main ? 'BTC' : 'BTC_TESTNET';
+      const coin = network === BitcoinNetwork.Main ? 'RDD' : 'RDD_TESTNET';
       const path = EXTENDED_PUBKEY_PATH[network][scriptType];
 
       registerExtendedPubKey(coin, path, current.xpub, scriptType, mfp).then(() => {

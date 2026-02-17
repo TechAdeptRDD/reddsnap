@@ -16,13 +16,13 @@ export const EXTENDED_PUBKEY_PATH = {
 
 export const NETWORK_SCRIPT_TO_COIN: Record<BitcoinNetwork, Record<BitcoinScriptType, SupportedCoins>> = {
   [BitcoinNetwork.Main]: {
-    [BitcoinScriptType.P2PKH]: SupportedCoins.BTC_LEGACY,
-    [BitcoinScriptType.P2SH_P2WPKH]: SupportedCoins.BTC,
-    [BitcoinScriptType.P2WPKH]: SupportedCoins.BTC_NATIVE_SEGWIT,
+    [BitcoinScriptType.P2PKH]: SupportedCoins.RDD_LEGACY,
+    [BitcoinScriptType.P2SH_P2WPKH]: SupportedCoins.RDD,
+    [BitcoinScriptType.P2WPKH]: SupportedCoins.RDD_NATIVE_SEGWIT,
   },
   [BitcoinNetwork.Test]: {
-    [BitcoinScriptType.P2PKH]: SupportedCoins.BTC_TESTNET_LEGACY,
-    [BitcoinScriptType.P2SH_P2WPKH]: SupportedCoins.BTC_TESTNET_SEGWIT,
-    [BitcoinScriptType.P2WPKH]: SupportedCoins.BTC_TESTNET_NATIVE_SEGWIT,
+    [BitcoinScriptType.P2PKH]: SupportedCoins.RDD_TESTNET_LEGACY,
+    [BitcoinScriptType.P2SH_P2WPKH]: SupportedCoins.RDD_TESTNET_SEGWIT,
+    [BitcoinScriptType.P2WPKH]: SupportedCoins.RDD_TESTNET_NATIVE_SEGWIT,
   }
 };

@@ -1,12 +1,12 @@
 {
-  "name": "btcsnap",
+  "name": "reddsnap",
   "version": "2.0.3",
-  "description": "btcsnap: Metamask snap to manage your bitcoin",
+  "description": "reddsnap: Metamask snap to manage your reddcoin",
   "author": "aaronisme <aarondongchen@gmail.com>",
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/snapdao/btcsnap"
+    "url": "https://github.com/snapdao/reddsnap"
   },
   "license": "ISC",
   "main": "dist/index.js",

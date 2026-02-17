@@ -34,7 +34,7 @@ const AboutZion = (({ open, close }: ConnectProps) => {
         </ModalHeader>
         <AboutSectionContainer>
           <p>Zion is a program based off MetaMask.</p>
-          <p>Zion is a web platform operated and developed by Yanssie HK Limited. Services include but not limited to, accessing any website or application on the platform, and any services offered through the btcsnap platform.</p>
+          <p>Zion is a web platform operated and developed by Yanssie HK Limited. Services include but not limited to, accessing any website or application on the platform, and any services offered through the reddsnap platform.</p>
           <MaskArea />
         </AboutSectionContainer>
       </Modal>
